@@ -16,10 +16,10 @@ let parentDiv=document.getElementById("parentDiv");
 
 if(randomNumber===guessedNumber){
     parentDiv.style.backgroundColor="green";
-    ramdomData.innerHTML=`<h1>YOU WON!! THE CORRECT ANSWER IS ${randomNumber}</h1>`;
+    ramdomData.innerHTML=`<h1>YOU WON!! THE NUMBER WAS ${randomNumber}</h1>`;
 }
 else {
-    ramdomData.innerHTML=`<h1>YOU LOSE!! THE CORRECT ANSWER IS ${randomNumber}</h1>`;
+    ramdomData.innerHTML=`<h1>YOU LOSE!! THE NUMBER WAS ${randomNumber}</h1>`;
     parentDiv.style.backgroundColor="red";
 }
 
