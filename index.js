@@ -18,7 +18,7 @@ let btnReset=document.getElementById("btn-Reset");
 if(randomNumber===guessedNumber){
     parentDiv.style.backgroundColor="green";
     ramdomData.innerHTML=`<h1>🎉YOU WON!! THE NUMBER WAS ${randomNumber}</h1>`;
-    alert(`YOU WON!!🎉 THE NUMBER WAS ${randomNumber}`)
+    setTimeout(()=>{alert(`YOU WON!!🎉 THE NUMBER WAS ${randomNumber}`),2000})
 }
 else {
     ramdomData.innerHTML=`<h1>👎YOU LOSE!! THE NUMBER WAS ${randomNumber}</h1>`;
