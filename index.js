@@ -26,6 +26,7 @@ if(randomNumber>5){
 if(randomNumber===guessedNumber){
     parentDiv.style.backgroundColor="green";
     ramdomData.innerHTML=`<h1>🎉YOU WON!! THE NUMBER WAS ${randomNumber}</h1>`;
+    btnReset.style.display="flex";
     attempt=0;
     setTimeout(()=>{alert(`YOU WON!!🎉 THE NUMBER WAS ${randomNumber}`),2000})
 }
